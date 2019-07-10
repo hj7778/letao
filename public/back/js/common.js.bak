@@ -1,0 +1,11 @@
+//进度条，公共特效
+
+Nprogress.start();
+
+
+//延迟结束
+setTimeout(function(){
+      Nprogress.done();
+
+},1000);
+
